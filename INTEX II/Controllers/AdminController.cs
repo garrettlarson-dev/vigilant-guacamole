@@ -5,36 +5,30 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace INTEX_II.Controllers;
 
-public class HomeController : Controller
+public class AdminController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<AdminController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public AdminController(ILogger<AdminController> logger)
     {
         _logger = logger;
     }
 
-    public IActionResult Index()
-    {
-        return View();
-    }
-
-    public IActionResult Privacy()
+    public IActionResult ReviewOrders()
     {
         return View();
     }
     
-    public IActionResult AboutUs()
+    public IActionResult ManageProducts()
     {
         return View();
     }
     
-    [Authorize]
-    public IActionResult Secrets()
+    public IActionResult ManageUsers()
     {
         return View();
     }
-
+    
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
