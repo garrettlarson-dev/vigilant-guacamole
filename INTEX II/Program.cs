@@ -28,8 +28,8 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 // Add Google Authentication
 builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 {
-    googleOptions.ClientId = "838146018695-a4hp8qifmjq6dbntp494u6lpotol4g7u.apps.googleusercontent.com";
-    googleOptions.ClientSecret = "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";
+    googleOptions.ClientId = Environment.GetEnvironmentVariable("GOOGLE_CLIENT_ID");
+    googleOptions.ClientSecret = Environment.GetEnvironmentVariable("GOOGLE_CLIENT_SECRET");
 });
 
 var app = builder.Build();

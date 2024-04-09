@@ -297,3 +297,4 @@
 /Users/garrettlarson/RiderProjects/INTEX II/INTEX II/bin/Release/net8.0/Microsoft.IdentityModel.Clients.ActiveDirectory.dll
 /Users/garrettlarson/RiderProjects/INTEX II/INTEX II/bin/Release/net8.0/Microsoft.Rest.ClientRuntime.dll
 /Users/garrettlarson/RiderProjects/INTEX II/INTEX II/bin/Release/net8.0/Microsoft.Rest.ClientRuntime.Azure.dll
+/Users/garrettlarson/RiderProjects/INTEX II/INTEX II/obj/Release/net8.0/INTEX II.sourcelink.json
