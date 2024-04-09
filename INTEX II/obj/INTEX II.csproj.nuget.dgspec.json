@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/INTEX II.csproj": {}
+    "C:\\Users\\zacko\\RiderProjects\\vigilant-guacamole\\INTEX II\\INTEX II.csproj": {}
   },
   "projects": {
-    "/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/INTEX II.csproj": {
+    "C:\\Users\\zacko\\RiderProjects\\vigilant-guacamole\\INTEX II\\INTEX II.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/INTEX II.csproj",
+        "projectUniqueName": "C:\\Users\\zacko\\RiderProjects\\vigilant-guacamole\\INTEX II\\INTEX II.csproj",
         "projectName": "INTEX II",
-        "projectPath": "/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/INTEX II.csproj",
-        "packagesPath": "/Users/garrettlarson/.nuget/packages/",
-        "outputPath": "/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/obj/",
+        "projectPath": "C:\\Users\\zacko\\RiderProjects\\vigilant-guacamole\\INTEX II\\INTEX II.csproj",
+        "packagesPath": "C:\\Users\\zacko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zacko\\RiderProjects\\vigilant-guacamole\\INTEX II\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/garrettlarson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\zacko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,27 +58,27 @@
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.Extensions.Configuration.AzureKeyVault": {
               "target": "Package",
@@ -106,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
