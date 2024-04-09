@@ -14,18 +14,17 @@
 
     <ItemGroup>
         <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.6.0" />
-        <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.8" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.3" />
         <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.3" />
         <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
-        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.4" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.3" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3">
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
           <PrivateAssets>all</PrivateAssets>
         </PackageReference>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.4" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.3" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.3" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3">
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
           <PrivateAssets>all</PrivateAssets>
         </PackageReference>
@@ -35,19 +34,6 @@
 
     <ItemGroup>
       <Folder Include="Areas\Identity\Data\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <_ContentIncludedByDefault Remove="wwwroot\lib\qrcode\davidshimjs-qrcodejs-04f46c6\.gitignore" />
-      <_ContentIncludedByDefault Remove="wwwroot\lib\qrcode\davidshimjs-qrcodejs-04f46c6\bower.json" />
-      <_ContentIncludedByDefault Remove="wwwroot\lib\qrcode\davidshimjs-qrcodejs-04f46c6\index-svg.html" />
-      <_ContentIncludedByDefault Remove="wwwroot\lib\qrcode\davidshimjs-qrcodejs-04f46c6\index.html" />
-      <_ContentIncludedByDefault Remove="wwwroot\lib\qrcode\davidshimjs-qrcodejs-04f46c6\index.svg" />
-      <_ContentIncludedByDefault Remove="wwwroot\lib\qrcode\davidshimjs-qrcodejs-04f46c6\jquery.min.js" />
-      <_ContentIncludedByDefault Remove="wwwroot\lib\qrcode\davidshimjs-qrcodejs-04f46c6\LICENSE" />
-      <_ContentIncludedByDefault Remove="wwwroot\lib\qrcode\davidshimjs-qrcodejs-04f46c6\qrcode.js" />
-      <_ContentIncludedByDefault Remove="wwwroot\lib\qrcode\davidshimjs-qrcodejs-04f46c6\qrcode.min.js" />
-      <_ContentIncludedByDefault Remove="wwwroot\lib\qrcode\davidshimjs-qrcodejs-04f46c6\README.md" />
     </ItemGroup>
 
 </Project>

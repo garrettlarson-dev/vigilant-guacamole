@@ -10,21 +10,16 @@
 {
     <div id="cookieConsent" class="alert alert-info alert-dismissible fade show" role="alert">
         Use this space to summarize your privacy and cookie use policy. <a asp-page="/Privacy">Learn More</a>.
-        <button type="button" class="accept-policy close" data-bs-dismiss="alert" aria-label="Close"  onclick="acceptCookie('@cookieString')">Accept</button>
+        <button type="button" class="accept-policy close" data-bs-dismiss="alert" aria-label="Close" data-cookie-string="@cookieString">
+            <span aria-hidden="true">Accept</span>
+        </button>
     </div>
+    <script>
+        (function () {
+            var button = document.querySelector("#cookieConsent button[data-cookie-string]");
+            button.addEventListener("click", function (event) {
+                document.cookie = button.dataset.cookieString;
+            }, false);
+        })();
+    </script>
 }
-
-<script>
-    function acceptCookie(cookieString) {
-        document.cookie = cookieString;
-        document.getElementById("cookieConsent").style.display = "none"; // Hide the banner after accepting the cookie
-    }
-
-    // Check if the cookie has been accepted and hide the banner if necessary
-    window.onload = function() {
-        var consentCookie = document.cookie.includes("YourConsentCookieNameHere");
-        if (consentCookie) {
-            document.getElementById("cookieConsent").style.display = "none";
-        }
-    };
-</script>
