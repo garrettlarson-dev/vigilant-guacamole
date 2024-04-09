@@ -13899,11 +13899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/garrettlarson/RiderProjects/INTEX II/INTEX II/INTEX II.csproj",
+      "projectUniqueName": "/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/INTEX II.csproj",
       "projectName": "INTEX II",
-      "projectPath": "/Users/garrettlarson/RiderProjects/INTEX II/INTEX II/INTEX II.csproj",
+      "projectPath": "/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/INTEX II.csproj",
       "packagesPath": "/Users/garrettlarson/.nuget/packages/",
-      "outputPath": "/Users/garrettlarson/RiderProjects/INTEX II/INTEX II/obj/",
+      "outputPath": "/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/garrettlarson/.nuget/NuGet/NuGet.Config"

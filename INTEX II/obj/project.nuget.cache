@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EyaW/EvFH+Fq7ZkZL0/0A+72JXVqd2PbCLcjHgWtKHsPcLnQvozCxFA2LnvYnNvXUEIa7+DwTwX/TmOalZlNCA==",
+  "dgSpecHash": "4j0D8OFuvzxxUD9Cu7hBSPgwtl7t/lb2o1vAPyWdTTAUwvgsyKy8T1xz49/hgiH0MXRF/XS/2wtoKIymtoOkew==",
   "success": true,
-  "projectFilePath": "/Users/garrettlarson/RiderProjects/INTEX II/INTEX II/INTEX II.csproj",
+  "projectFilePath": "/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/INTEX II.csproj",
   "expectedPackageFiles": [
     "/Users/garrettlarson/.nuget/packages/azure.core/1.37.0/azure.core.1.37.0.nupkg.sha512",
     "/Users/garrettlarson/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
