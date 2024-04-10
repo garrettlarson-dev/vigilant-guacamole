@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aRqkw+pRDoHxwnhp6hQHS2esQ4O1BOTO2wr6NjasaHk=",
+  "Hash": "YbMAua3SfJwMFsPut+NOXC4w6NWTJA0mLOChnFiJTWQ=",
   "Source": "INTEX II",
   "BasePath": "_content/INTEX II",
   "Mode": "Default",
@@ -2333,6 +2333,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/wwwroot/lib/qrcode/qrcode.min.js",
+      "SourceId": "INTEX II",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/wwwroot/",
+      "BasePath": "_content/INTEX II",
+      "RelativePath": "lib/qrcode/qrcode.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/qrcode/qrcode.min.js"
     }
   ]
 }

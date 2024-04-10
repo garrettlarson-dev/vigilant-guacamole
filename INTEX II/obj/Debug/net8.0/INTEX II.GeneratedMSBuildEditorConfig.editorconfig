@@ -186,6 +186,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/Views/Admin/ManageProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTWFuYWdlUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/Views/Admin/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTWFuYWdlVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/Views/Admin/ReviewOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUmV2aWV3T3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/garrettlarson/Documents/GitHub/IntexII/vigilant-guacamole/INTEX II/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
